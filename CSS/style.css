@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'SignikaNegative-Bold';
+	src: url('../fonts/SignikaNegative-Bold.eot');
+	src: local('☺'), url('../fonts/SignikaNegative-Bold.woff') format('woff'), url('../fonts/SignikaNegative-Bold.ttf') format('truetype'), url('../fonts/SignikaNegative-Bold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+   font-display: swap;
+}
+@font-face {
+	font-family: 'SignikaNegative-Regular';
+	src: url('../fonts/SignikaNegative-Regular.eot');
+	src: local('☺'), url('../fonts/SignikaNegative-Regular.woff') format('woff'), url('../fonts/SignikaNegative-Regular.ttf') format('truetype'), url('../fonts/SignikaNegative-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+   font-display: swap;
+}
+@font-face {
+	font-family: 'SignikaNegative-Light';
+	src: url('../fonts/SignikaNegative-Light.eot');
+	src: local('☺'), url('../fonts/SignikaNegative-Light.woff') format('woff'), url('../fonts/SignikaNegative-Light.ttf') format('truetype'), url('../fonts/SignikaNegative-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+   font-display: swap;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box ;
+   font-family: 'seriSignikaNegative-Regular', sans-serif;
+}
+body{
+   font-size: 16px;
+   line-height: 22px;
+   background: rgb(204, 203, 204);
+   color: rgb(49, 46, 49);
+}
+.resume{
+	max-width: 1500px;
+	max-height: auto;
+	display: flex;
+}
+.resume .resume_nav{
+	width: 33.3%;
+	background-color: rgb(220, 233, 101);
+}
+
+.resume .resume_nav .resume_photo{
+	width: 100%;
+}
+.resume_nav{
+   border-radius: 20px;
+   margin: 20px 0 0 10px;
+   box-shadow: 10px 10px 15px rgb(0 0 0 / 70%);
+}
+
+.photo_profile{
+   display: block;
+	width: 90%;
+   margin: 0 auto;
+   margin-top: 10px;
+   border-radius: 30px;
+   box-shadow: 10px 10px 15px rgba(0,0,0,0.7) ;
+}
+.resume_content{
+	padding: 0 50px;
+}
+.resume_item_info{
+   width: 100%;
+}
+
+
+.about_me{
+   color:rgba(0,0,0,0.7);
+   text-align: center;
+    margin: 20px 0 20px;
+    font-family: 'SignikaNegative-Bold';
+}
+
+.nav_info{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.color{
+   color: rgb(16, 37, 128);
+   font-weight: bold;
+   font-style: italic;
+   font-family: 'SignikaNegative-Bold';
+}
+.contacts{
+   margin-bottom: 10px;
+}
+.contacts li{
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+.education{
+   margin-bottom: 10px; 
+}
+.education li{
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+.resume_item_skills li{
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+main{
+   width: 100%;
+   font-size: 25px;
+   line-height: 25px;
+}
+h1{
+   text-align: center;
+   font-family: 'SignikaNegative-Bold';
+   margin-top: 60px;
+   margin-bottom: 60px;
+   font-size: 50px;
+   font-style: italic;
+}
+.main_info{
+   margin-left: 60px;
+   margin-right: 40px;
+}
+.info_about_me{
+   margin-bottom: 40px;
+   border-bottom: 3px solid rgb(220, 233, 101) ;
+}
+.title_h2{
+   margin-bottom: 25px;
+   font-style: italic;
+   font-family: 'SignikaNegative-Bold';
+
+}
+main li{
+   padding-bottom: 20px;
+}
+.ul_li{
+   margin-top:20px;
+   margin-left: 25px;
+}
+.purpose{
+   border-bottom: 3px solid rgb(220, 233, 101) ;
+   margin-bottom: 40px;
+}
+footer{
+   margin: 40px;
+   background-color: rgb(220, 233, 101);
+   border-radius: 20px;
+   box-shadow: 10px 10px 15px rgb(0 0 0 / 70%);
+}
+.footer_line{
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+}
+.gitHub{
+   margin: 10px 0 0 10px;
+}
+.year{
+   margin: 10px 0 0 10px;
+}
