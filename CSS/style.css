@@ -33,17 +33,33 @@ body{
    line-height: 22px;
    background: rgb(204, 203, 204);
    color: rgb(49, 46, 49);
+   max-width: 1500px;
 }
+a{
+   text-decoration: none;
+   }
 .resume{
-	max-width: 1500px;
 	max-height: auto;
 	display: flex;
 }
+.header_nav{
+   margin: 20px ;
+   background-color: rgb(220, 233, 101);
+   border-radius: 20px;
+   box-shadow: 10px 10px 15px rgb(0 0 0 / 70%);
+   }
+   .nav_lines{
+   display: flex;
+   justify-content: space-around;
+   padding: 15px;
+   }
+   .nav_lines p{
+   font-family: 'SignikaNegative-Light'
+   }
 .resume .resume_nav{
 	width: 33.3%;
 	background-color: rgb(220, 233, 101);
 }
-
 .resume .resume_nav .resume_photo{
 	width: 100%;
 }
@@ -52,7 +68,6 @@ body{
    margin: 20px 0 0 10px;
    box-shadow: 10px 10px 15px rgb(0 0 0 / 70%);
 }
-
 .photo_profile{
    display: block;
 	width: 90%;
@@ -67,15 +82,12 @@ body{
 .resume_item_info{
    width: 100%;
 }
-
-
 .about_me{
    color:rgba(0,0,0,0.7);
    text-align: center;
-    margin: 20px 0 20px;
-    font-family: 'SignikaNegative-Bold';
+   margin: 20px 0 20px;
+   font-family: 'SignikaNegative-Bold';
 }
-
 .nav_info{
    display: flex;
    flex-direction: column;
@@ -130,7 +142,6 @@ h1{
    margin-bottom: 25px;
    font-style: italic;
    font-family: 'SignikaNegative-Bold';
-
 }
 main li{
    padding-bottom: 20px;
