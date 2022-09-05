@@ -22,6 +22,7 @@
 	font-style: normal;
    font-display: swap;
 }
+
 *{
    margin: 0;
    padding: 0;
@@ -43,7 +44,7 @@ a{
 	display: flex;
 }
 .header_nav{
-   margin: 20px ;
+   margin: 15px ;
    background-color: rgb(220, 233, 101);
    border-radius: 20px;
    box-shadow: 10px 10px 15px rgb(0 0 0 / 70%);
@@ -56,12 +57,21 @@ a{
    .nav_lines p{
    font-family: 'SignikaNegative-Light'
    }
+   .nav_lines a{
+   font-size: 20px;
+   font-style: oblique;
+   }
+   .nav_lines a:hover{
+      font-size: 22px;
+      font-weight: 800; 
+   }
+   
 .resume .resume_nav{
-	width: 33.3%;
+	max-width: 33.3%;
 	background-color: rgb(220, 233, 101);
 }
 .resume .resume_nav .resume_photo{
-	width: 100%;
+	max-width: 100%;
 }
 .resume_nav{
    border-radius: 20px;
@@ -70,7 +80,7 @@ a{
 }
 .photo_profile{
    display: block;
-	width: 90%;
+	max-width: 90%;
    margin: 0 auto;
    margin-top: 10px;
    border-radius: 30px;
@@ -80,7 +90,7 @@ a{
 	padding: 0 50px;
 }
 .resume_item_info{
-   width: 100%;
+   max-width: 100%;
 }
 .about_me{
    color:rgba(0,0,0,0.7);
@@ -118,7 +128,7 @@ a{
    margin-bottom: 5px;
 }
 main{
-   width: 100%;
+   max-width: 67%;
    font-size: 25px;
    line-height: 25px;
 }
@@ -154,11 +164,29 @@ main li{
    border-bottom: 3px solid rgb(220, 233, 101) ;
    margin-bottom: 40px;
 }
+.code{
+   border-bottom: 3px solid rgb(220, 233, 101) ;
+   margin-bottom: 40px;
+   padding-bottom: 20px;
+}
+.img_code{
+   max-width: 100%;
+}
 footer{
+   font-size: 20px;
+   font-weight: 500;
    margin: 40px;
    background-color: rgb(220, 233, 101);
    border-radius: 20px;
    box-shadow: 10px 10px 15px rgb(0 0 0 / 70%);
+}
+.gitHub:hover{
+   font-size: 25px;
+   font-weight: 900;
+}
+.year:hover{
+   font-size: 25px;
+   font-weight: 900;
 }
 .footer_line{
    display: flex;
